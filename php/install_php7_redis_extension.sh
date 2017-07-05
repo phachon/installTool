@@ -18,9 +18,8 @@ make && make install
 cd ..
 rm -rf php7.zip
 if [ -f "${php_install_dir}/lib/php/extensions/no-debug-non-zts-20151012/redis.so" ];then
-    echo "[redis]">${php_install_dir}/etc/php.ini
+    echo "[redis]">>${php_install_dir}/etc/php.ini
     echo "extension=redis.so">>${php_install_dir}/etc/php.ini
     ${php_install_dir}/bin/php -m
 fi
 echo "done."
-
