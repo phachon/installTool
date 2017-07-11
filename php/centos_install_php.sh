@@ -24,7 +24,7 @@ cd ../
 
 # download php-7.0.8.tar.bz2
 yum install -y wget
-wget -O "'${php_file_name}'" ${php_download_url}
+wget -O ${php_file_name} ${php_download_url}
 tar jxf ${php_file_name}
 cd php-${php_version}/
 

@@ -33,3 +33,4 @@ cd nginx-1.8.1
 
 make && make install
 
+echo "done."
