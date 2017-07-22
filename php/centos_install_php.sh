@@ -3,6 +3,7 @@
 # centos install php
 # author: phachon@163.com
 # used: ./centos_install_php.sh
+# apply: centos6.*
 # ----------------------------------
 
 # install start (set php version and install dir)
