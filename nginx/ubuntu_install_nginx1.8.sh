@@ -1,12 +1,22 @@
 #!/bin/bash
 # -------------------------------
-# - centos install nginx1.8.1
+# - ubuntu install nginx1.8.1
 # - author: phachon@163.com
 # -------------------------------
 nginx_version="1.8.1"
 nginx_install_dir="/usr/local/nginx"
 
-yum install gcc gcc-c++ automake pcre pcre-devel zlip zlib-devel openssl openssl-devel
+apt-get install gcc
+apt-get install gcc-c++
+apt-get install automake
+apt-get install pcre
+apt-get install pcre-devel
+apt-get install zlip
+apt-get install zlib-devel
+apt-get install openssl
+apt-get install openssl-devel
+apt-get install libpcre3
+apt-get install libpcre3-dev
 
 wget http://nginx.org/download/nginx-1.8.1.tar.gz
 tar  xvf nginx-1.8.1.tar.gz
