@@ -54,4 +54,8 @@ mkdir ${nginx_install_dir}/conf/conf.d
 
 make && make install
 
+wget "https://github.com/phachon/installTool/raw/master/nginx/www.conf.tar.gz"
+tar -zxvf www.conf.tar.gz
+mv www.conf  ${nginx_install_dir}/conf/conf.d
+
 echo "done."
