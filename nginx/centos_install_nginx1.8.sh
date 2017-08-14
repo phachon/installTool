@@ -40,12 +40,12 @@ mkdir -p /var/tmp/nginx/fcgi
 mkdir -p /var/tmp/nginx/uwsgi
 mkdir -p /var/tmp/nginx/scgi
 
-mkdir ${nginx_install_dir}/conf/conf.d
+mkdir ${nginx_install_dir}/conf/conf.d/
 
 make && make install
 
 wget "https://github.com/phachon/installTool/raw/master/nginx/www.conf.tar.gz"
 tar -zxvf www.conf.tar.gz
-mv www.conf  ${nginx_install_dir}/conf/conf.d
+mv www.conf  ${nginx_install_dir}/conf/conf.d/
 
 echo "done."
