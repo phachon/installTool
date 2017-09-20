@@ -30,7 +30,7 @@ tar jxf ${php_file_name}
 cd php-${php_version}/
 
 # make configure
-# php5 add mysql extension --with-mysqli=mysqlnd \
+# php5 add mysql extension --with-mysql=mysqlnd \
 ./configure --prefix=${php_install_dir} \
 --with-config-file-path=${php_install_dir}/etc \
 --with-config-file-scan-dir=${php_install_dir}/etc/conf.d \
