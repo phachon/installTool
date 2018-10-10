@@ -18,9 +18,8 @@ cp redis.conf /usr/local/redis/etc/
 cp src/redis-server /usr/local/redis/bin/
 cp src/redis-cli /usr/local/redis/bin/
 cp src/redis-check-rdb /usr/local/redis/bin/
-cp src/redis-check-benchmark /usr/local/redis/bin/
 cp src/redis-check-aof /usr/local/redis/bin/
-cp src/redis-check-sentinel /usr/local/redis/bin/
-
+cp src/redis-sentinel /usr/local/redis/bin/
+cp src/redis-benchmark /usr/local/redis/bin/
 
 echo "done."
