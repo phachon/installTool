@@ -15,6 +15,8 @@ if [ ! -d "/usr/local/redis" ]; then
 fi
 
 cp redis.conf /usr/local/redis/etc/
+cp sentinel.conf /usr/local/redis/etc/
+
 cp src/redis-server /usr/local/redis/bin/
 cp src/redis-cli /usr/local/redis/bin/
 cp src/redis-check-rdb /usr/local/redis/bin/
