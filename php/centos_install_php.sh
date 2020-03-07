@@ -7,10 +7,10 @@
 # ----------------------------------
 
 # install start (set php version and install dir)
-php_version="7.0.8"
+php_version="7.2.27"
 php_install_dir="/usr/local/php7"
 php_file_name="php-${php_version}.tar.bz2"
-php_download_url="http://cn2.php.net/get/${php_file_name}/from/this/mirror"
+php_download_url="https://www.php.net/distributions/php-7.2.27.tar.bz2"
 
 # install base soft
 yum install gcc-c++ gcc cmake cyrus-sasl-devel libmemcached php-memcached  build-essential bison libreadline6 libreadline6-dev curl  libssl-dev libyaml-dev libxml2-dev libxslt-dev autoconf libc6-dev libcur* libxml2 libxml2-devel zlib1g zlib1g-dev  openssl openssl-devel bzip2 bzip2-devel curl curl-devel libjpeg libjpeg-devel  libpng libpng-devel  freetype-devel gmp-devel mysql-devel ncurses ncurses-devel unixODBC-devel  pspell-devel  libmcrypt libmcrypt-devel net-snmp net-snmp-devel mhash-devel libsqlite3-0 libsqlite3-dev sqlite3
