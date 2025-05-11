@@ -6,6 +6,8 @@
 nginx_version="1.8.1"
 nginx_install_dir="/usr/local/nginx"
 
+mkdir ${nginx_install_dir}
+
 yum install gcc gcc-c++ automake pcre pcre-devel zlip zlib-devel openssl openssl-devel
 
 wget http://nginx.org/download/nginx-1.8.1.tar.gz
